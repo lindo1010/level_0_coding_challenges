@@ -2,7 +2,7 @@ package com.company;
 
 public class Task0_6 {
     public static void main(String[] args) {
-    maximum(10,15,12);
+    System.out.println(maximum(10,15,12));
     }
     public static int maximum(int a, int b, int c){
         int max;
