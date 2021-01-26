@@ -2,7 +2,7 @@ package com.company;
 
 public class Task0_5 {
      public static void main(String[] args) {
-            area_of_triangle(5,4,3);
+            System.out.println(area_of_triangle(5,4,3));
         }
         public static double area_of_triangle(int a, int b, int c) {
             double s = 0.5 * (a + b + c);
