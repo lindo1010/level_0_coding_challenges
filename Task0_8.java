@@ -2,10 +2,9 @@ package com.company;
 
 public class Task0_8 {
     public static void main(String[] args) {
-        convert_to_minutes(71);
-        
+        convertToMinutes(71);
     }
-    public static void convert_to_minutes( int a){
+    public static void convertToMinutes( int a){
         int hours = a / 60;
         int minutes = a % 60;
 
